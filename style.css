@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Header*/
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px 112px;
+    background-color: whitesmoke;
+}
+
+/*Меню с кнопками в хэдэре*/
+.header-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*Кнопки в header-menu*/
+.header-menu a {
+    transition: 0.5s;
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    margin-right: 16px;
+    font-size: small;
+    padding: 8px 12px;
+}
+
+/*Кнопки в header-menu когда навелись мышкой*/
+.header-menu a:hover{
+    transition: 0.5s;
+    color: rgb(33, 33, 33);
+    background-color: rgb(210, 210, 210);
+    padding: 8px 12px;
+}
+
+/*Приветственный блок*/
+.welcome{
+    /*Устанавливаем flex для удобного позиционирования элементов*/
+    display: flex;
+    flex-direction: column; /*Элементы будут в столбик*/
+
+    /*
+        Настройки заднего фона.
+        cover значит, что картинка растянется по всему размеру коробки
+    */
+    background-image: url(https://www.republic-of-afariya.ru/wp-content/uploads/2022/04/Logo1.jpg);
+    background-size: cover;
+}
