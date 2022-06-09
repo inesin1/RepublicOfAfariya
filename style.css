@@ -50,7 +50,7 @@ header {
         Настройки заднего фона.
         cover значит, что картинка растянется по всему размеру коробки
     */
-    background-image: url(https://www.republic-of-afariya.ru/wp-content/uploads/2022/04/Logo1.jpg);
+    background-image: url(img/Logo.jpg);
     background-size: cover;
 
     align-items: center;
@@ -59,19 +59,25 @@ header {
 .welcome h1{
     color: white;
 
-    font-size: 42px;
-    margin-top: 86px;
+    font-size: 68px;
+    margin-top: 150px;
 }
 
 .welcome p{
     color: white;
+    font-size: x-large;
 
-    
+    margin-top: 36px;
+    margin-bottom: 48px;
 }
 
 .welcome a{
     color: white;
     background-color:deepskyblue;
+    font-size: x-large;
 
-    padding: 8px;
+    padding: 12px;
+    margin-bottom: 150px;
+    
+    border-radius: 3px;
 }
