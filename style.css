@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    text-decoration: none;
 }
 
 body{
@@ -25,7 +26,6 @@ header {
 /*Кнопки в header-menu*/
 .header-menu a {
     transition: 0.5s;
-    text-decoration: none;
     color: rgb(48, 48, 48);
     margin-right: 16px;
     font-size: small;
@@ -52,4 +52,26 @@ header {
     */
     background-image: url(https://www.republic-of-afariya.ru/wp-content/uploads/2022/04/Logo1.jpg);
     background-size: cover;
+
+    align-items: center;
+}
+
+.welcome h1{
+    color: white;
+
+    font-size: 42px;
+    margin-top: 86px;
+}
+
+.welcome p{
+    color: white;
+
+    
+}
+
+.welcome a{
+    color: white;
+    background-color:deepskyblue;
+
+    padding: 8px;
 }
