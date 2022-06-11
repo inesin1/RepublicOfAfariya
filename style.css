@@ -39,6 +39,7 @@ header {
     background-color: rgb(210, 210, 210);
     padding: 8px 12px;
 }
+/*---*/
 
 /*Приветственный блок*/
 .welcome{
@@ -81,3 +82,57 @@ header {
     
     border-radius: 3px;
 }
+/*---*/
+
+/*Наборы*/
+.kits {
+    /*Устанавливаем flex для 
+    удобного позиционирования элементов*/
+    display: flex; 
+    /*Элементы в столбик*/
+    flex-direction: column; 
+
+    /*Цвет заднего фона*/
+    background-color:azure;
+}
+
+.kits h2 {
+    margin: 32px auto;/*Отступ сверхи/снизу и выставляем по середине*/
+    font-size: 60px; /*Размер шрифта*/
+    color: rgb(48, 48, 48); /*Цвет шрифта*/
+}     
+
+.kits-list {
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    margin-left: 380px;
+    margin-right: 110px;
+}
+
+.kits-list-item {
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 140px;
+    margin-top: 36px;
+
+    background-color: aliceblue;
+    padding: 22px 16px;
+    border-radius: 3px;
+    border: solid black 3px;
+}
+
+.last {
+    margin-left: 300px;
+}
+
+.buyButton {
+    background-color: deepskyblue;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+}
+/*---*/
