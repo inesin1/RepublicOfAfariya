@@ -107,25 +107,27 @@ header {
     flex-direction: row;
 
     flex-wrap: wrap;
-    margin-left: 380px;
-    margin-right: 110px;
+    margin: 0 auto;
+    margin-left: 112px;
 }
 
 .kits-list-item {
     display: flex;
     flex-direction: column;
 
-    margin-right: 140px;
-    margin-top: 36px;
+    flex-basis: 25%;
 
     background-color: aliceblue;
-    padding: 22px 16px;
+
     border-radius: 3px;
-    border: solid black 3px;
+    border: solid rgb(230, 230, 230) 3px;
+
+    margin: 36px;
+    align-items: center;
 }
 
 .last {
-    margin-left: 300px;
+    margin-left: 466px;
 }
 
 .buyButton {
@@ -133,6 +135,21 @@ header {
     padding: 12px;
     text-align: center;
     color: white;
-    border-radius: 3px;
+    border-radius: 3px; 
+
+    margin: 20px 0;
+}
+
+.kits-list-item img {
+    margin: 24px 0;
+}
+
+.kits-list-item p {
+    margin: 6px 0;
+}
+
+.kit-name {
+    margin-bottom: 18px!important;
+    font-size: 24px;
 }
 /*---*/
