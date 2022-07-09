@@ -7,6 +7,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*Header*/
 header {
     display: flex;
@@ -28,7 +32,7 @@ header {
     transition: 0.5s;
     color: rgb(48, 48, 48);
     margin-right: 16px;
-    font-size: small;
+    font-size: medium;
     padding: 8px 12px;
 }
 
@@ -158,6 +162,12 @@ header {
 .pay {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(https://www.republic-of-afariya.ru/wp-content/uploads/2022/04/IMG-20210401-WA0012.jpg);
+    background-size: cover;
 
     color: white;
     background-color: antiquewhite;
@@ -174,4 +184,79 @@ header {
     margin-top: 32px;
     margin-bottom: 8px;
 }
+
+.pay form {
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+    padding: 24px;
+
+    border-radius: 5px;
+}
+
+.pay form input {
+    margin-bottom: 14px;
+    padding: 4px 6px;
+}
+
+.pay form textarea {
+    resize: none;
+    padding: 4px 6px;
+}
+
+#form-button {
+    transition: 0.5s;
+
+    margin-bottom: 0;
+    margin-top: 28px;
+
+    background-color: deepskyblue;
+    padding: 12px;
+    color: white;
+    border-radius: 3px; 
+    border: 0;
+    cursor: pointer;
+}
+
+#form-button:hover {
+    transition: 0.5s;
+
+    background-color: rgb(0, 180, 240);
+}
+/*---*/
+
+/*Footer*/
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: #323437;
+
+    padding: 48px 256px;
+}
+
+/*Кнопки в footer-menu*/
+.footer-menu a {
+    transition: 0.5s;
+    background-color: #323437;
+    color: white;
+    margin-right: 16px;
+    font-size: medium;
+    padding: 8px 12px;
+}
+
+/*Кнопки в footer-menu когда навелись мышкой*/
+.footer-menu a:hover{
+    transition: 0.5s;
+    color: rgb(33, 33, 33);
+    background-color: rgb(210, 210, 210);
+    padding: 8px 12px;
+}
+
+footer a {
+    color: white;
+}
+
 /*---*/

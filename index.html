@@ -19,8 +19,8 @@
 
         <div class="header-menu">
             <a href="">Главная</a>
-            <a href="">Купить набор</a>
-            <a href="">Законодательства</a>
+            <a href="#kits">Купить набор</a>
+            <a href="#laws">Законодательства</a>
         </div>
     </header>
 
@@ -32,7 +32,7 @@
             <a href="">Купить набор</a>
         </div>
 
-        <div class="kits">
+        <div class="kits" id="kits">
             <h2>Наборы</h2>
             <div class="kits-list">
                 <div class="kits-list-item">
@@ -93,6 +93,7 @@
             </div>
         </div>
 
+        <!--Оплата и контакты-->
         <div class="pay">
             <div class="pay-text">
                 <h2>Оплата и контакты</h2>
@@ -106,17 +107,25 @@
             </div>
 
             <form action="">
-                <input type="text" name="username">
-                <input type="email" name="email">
-                <input type="text" name="subject">
-                <textarea name="message" cols="30" rows="10"></textarea>
+                <input type="text" name="username" placeholder="Имя">
+                <input type="email" name="email" placeholder="Email">
+                <input type="text" name="subject" placeholder="Тема">
+                <textarea name="message" cols="30" rows="10" placeholder="Текст сообщения"></textarea>
+
+                <input type="submit" value="Отправить" id="form-button">
             </form>
         </div>
     </div>
 
     <!--Нижнее меню-->
     <footer>
+        <div class="footer-menu">
+            <a href="">Главная</a>
+            <a href="#kits">Купить набор</a>
+            <a href="#laws">Законодательства</a>
+        </div>
 
+        <a href="https://anesin.ru" target="_blank">Сайт разработан inesin</a>
     </footer>
 </body>
 </html>
