@@ -276,3 +276,15 @@ footer a {
     margin: 100px auto;
     color: white;
 }
+
+.buy-kits_instructions {
+    display: flex;
+    flex-direction: column;
+
+    margin: 36px 325px 271px 325px;
+    text-align: center;
+}
+
+.buy-kits_instructions img {
+    margin: 0 auto;
+}
